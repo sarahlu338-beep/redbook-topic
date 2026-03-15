@@ -320,7 +320,9 @@ async function main() {
         lastUpdated: null
       }, null, 2));
     }
-    releaseLock = await lockfile.lock(STATE_PATH, { retries: 3 });
+    // stale: 300000 (5 min) — default 10s is too short, API calls take longer
+    // update: 60000 (1 min) — how often the lock refreshes itself
+    releaseLock = await lockfile.lock(STATE_PATH, { retries: 3, stale: 300000, update: 60000 });
   } catch (err) {
     console.error(JSON.stringify({
       error: 'STATE_LOCKED',
