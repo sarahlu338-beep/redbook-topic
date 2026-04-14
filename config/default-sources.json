@@ -31,6 +31,12 @@
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
     }
   ],
+  ,
+    {
+      "name": "Silicon Valley Girl",
+      "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiq1FIgtEK7LRAOB1JXTPig",
+      "url": "https://www.youtube.com/@SiliconValleyGirl"
+    }
   "blogs": [
     {
       "name": "Anthropic Engineering",
