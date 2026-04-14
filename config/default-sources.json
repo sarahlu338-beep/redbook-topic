@@ -46,6 +46,17 @@
       "articleBaseUrl": "https://claude.com/blog/",
       "fetchMethod": "http"
     }
+    ,
+    {
+      "name": "a16z",
+      "type": "scrape",
+      "indexUrl": "https://www.a16z.news/",
+      "articleBaseUrl": "https://www.a16z.news/p/",
+      "fetchMethod": "http"
+    }
+    
+    
+
   ],
   "x_accounts": [
     { "name": "Andrej Karpathy", "handle": "karpathy" },
