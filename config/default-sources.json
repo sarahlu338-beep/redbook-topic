@@ -54,6 +54,35 @@
       "articleBaseUrl": "https://www.a16z.news/p/",
       "fetchMethod": "http"
     }
+    ,
+    {
+      "name": "TechCrunch Startups",
+      "type": "scrape",
+      "indexUrl": "https://techcrunch.com/category/startups/",
+      "articleBaseUrl": "https://techcrunch.com/",
+      "fetchMethod": "http"
+    },
+    {
+      "name": "VCNewsDaily",
+      "type": "scrape",
+      "indexUrl": "https://vcnewsdaily.com/",
+      "articleBaseUrl": "https://vcnewsdaily.com/",
+      "fetchMethod": "http"
+    },
+    {
+      "name": "Product Hunt",
+      "type": "scrape",
+      "indexUrl": "https://www.producthunt.com/",
+      "articleBaseUrl": "https://www.producthunt.com/",
+      "fetchMethod": "http"
+    },
+    {
+      "name": "Y Combinator Launches",
+      "type": "scrape",
+      "indexUrl": "https://www.ycombinator.com/launches",
+      "articleBaseUrl": "https://www.ycombinator.com/",
+      "fetchMethod": "http"
+    }
     
     
 
